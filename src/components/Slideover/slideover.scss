@@ -45,3 +45,10 @@
     margin-left: 2rem;
   }
 }
+
+.slide-enter-active, .slide-leave-active {
+  animation: slide .5s;
+}
+.slide-enter, .slide-leave-to {
+  animation: slide .5s reverse;
+}
