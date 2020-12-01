@@ -1,4 +1,4 @@
-import SbNotification from './index'
+import { SbNotification } from '.'
 
 const NotificationTemplate = (args) => ({
   components: { SbNotification },
@@ -75,7 +75,7 @@ export default {
     },
     isExpandable: {
       name: 'isExpandable',
-      description: 'Change notification to expadable and show content',
+      description: 'Change notification to expandable and show content',
       control: {
         type: 'boolean',
       },
@@ -196,7 +196,7 @@ export const AllSizes = (args) => ({
         v-bind="{
           status: 'negative',
           title,
-          description: 'This is a awesome component from Storyblok Desing Sistem',
+          description: 'This is a awesome component from Storyblok Design System',
           linkName,
           link: 'http://#',
           isExpandable,
@@ -222,7 +222,7 @@ export const ExpandableNotification = (args) => ({
         v-bind="{
           status: 'info',
           title,
-          description: 'This is a awesome component from Storyblok Desing Sistem',
+          description: 'This is a awesome component from Storyblok Design System',
           linkName,
           link: 'http://#',
           isExpandable: true,
@@ -235,7 +235,7 @@ export const ExpandableNotification = (args) => ({
         v-bind="{
           status: 'info',
           title,
-          description: 'This is a awesome component from Storyblok Desing Sistem',
+          description: 'This is a awesome component from Storyblok Design System',
           linkName,
           link: 'http://#',
           isExpandable: true,

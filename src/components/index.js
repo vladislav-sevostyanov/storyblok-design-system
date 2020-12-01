@@ -1,5 +1,5 @@
 import SbAvatar from './Avatar'
-import SbAbatarGroup from './AvatarGroup'
+import SbAvatarGroup from './AvatarGroup'
 import SbBadge from './Badge'
 import SbBlockUi from './BlockUI'
 import * as BreadcrumbComponents from './Breadcrumbs'
@@ -43,7 +43,7 @@ import SbUploadDialog from './UploadDialog'
 
 export default {
   SbAvatar,
-  SbAbatarGroup,
+  SbAvatarGroup,
   SbBadge,
   SbBlockUi,
   ...BreadcrumbComponents,
