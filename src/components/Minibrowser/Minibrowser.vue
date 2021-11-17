@@ -177,7 +177,7 @@ export default {
       this.searchInput = value
       this.isOnLoadingFilter = true
 
-      if (value && this.filterHandler) {
+      if (this.filterHandler) {
         this.filterHandler()
         return
       }
